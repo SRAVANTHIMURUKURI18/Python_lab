@@ -1,0 +1,4 @@
+dis=int(input("DISTANCE IN KM"))
+time=int(input("time in min"))
+speed=(dis/time)
+print("SPEED IS",speed)
