@@ -1,0 +1,6 @@
+a=int(input())
+
+ar=3.14*a*a
+c=2*3.14*a
+print("AREA OF CIRCLE IS",ar)
+print("CIRCUMFERENCE OF CIRCLE IS",c)
