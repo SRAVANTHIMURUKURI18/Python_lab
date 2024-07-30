@@ -1,0 +1,25 @@
+l=['v','i','r','a','t',1,8]
+print(l)
+print(l[1])
+print(l[0:5])
+print(l[5:7])
+print(l[0:7:3])
+for i in l:
+     print(i)
+
+o/p:
+
+['v', 'i', 'r', 'a', 't', 1, 8]
+i
+['v', 'i', 'r', 'a', 't']
+[1, 8]
+['v', 'a', 8]
+v
+i
+r
+a
+t
+1
+8
+
+
