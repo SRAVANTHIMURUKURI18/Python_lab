@@ -1,0 +1,18 @@
+t=int(input("enter no.of terms"))
+n1,n2=0,1
+while t>0:
+    print(n1)
+    n3=n1+n2
+    n1=n2
+    n2=n3
+    t-=1
+
+
+o/p:7
+0
+1
+1
+2
+3
+5
+8
