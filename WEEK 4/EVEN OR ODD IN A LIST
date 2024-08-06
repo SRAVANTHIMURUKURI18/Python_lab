@@ -1,0 +1,15 @@
+l=[]
+n=int(input("enter the no.of elements"))
+for i in range(n):
+     el=int(input("enter the ele  "))
+     l.append(el)
+print(l)
+even=[]
+odd=[]
+for i in range(n):
+     if(l[i]%2==0):
+           even.append(l[i])
+     else:
+          odd.append(l[i])      
+print("THE EVEN'S IN THE LIST: ",even)
+print("THE ODD'S IN THE LIST: ",odd)          
