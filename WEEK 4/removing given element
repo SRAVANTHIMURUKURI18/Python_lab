@@ -4,8 +4,8 @@ for i in range(n):
      el=int(input("enter the ele  "))
      l.append(el)
 print(l)
-n=int(input("enter a element to remove"))
-l.remove(n)
+p=int(input("enter a element to remove"))
+l.remove(p)
 print(l)
 
 
@@ -24,10 +24,10 @@ for i in range(n):
 print(l)
 
 
-n=int(input("enter a element to remove"))
-if n in l:
-    while n in l:
-          l.remove(n)
+p=int(input("enter a element to remove"))
+if p in l:
+    while p in l:
+          l.remove(p)
     print(l)
 else:
     print("NO SUCH ELEMENT")
