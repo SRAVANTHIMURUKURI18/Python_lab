@@ -1,0 +1,10 @@
+l=[]
+n=int(input("enter the no.of elements"))
+for i in range(n):
+     el=int(input("enter the ele  "))
+     l.append(el)
+print(l)
+a=int(input("enter 1st index"))
+b=int(input("enter 2nd index"))
+l[a],l[b]=l[b],l[a]
+print(l)
