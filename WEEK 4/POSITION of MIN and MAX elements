@@ -1,0 +1,8 @@
+l=[]
+n=int(input("enter the no.of elements"))
+for i in range(n):
+     el=int(input("enter the ele  "))
+     l.append(el)
+print(l)
+print("Minimum element is at i= ",l.index(min(l)))
+print("Maximum element is at i= ",l.index(max(l)))
