@@ -1,0 +1,9 @@
+l=[]
+n=int(input("enter the no.of elements"))
+for i in range(n):
+     el=int(input("enter the ele  "))
+     l.append(el)
+print(l)
+n=int(input("enter a element to remove"))
+l.remove(n)
+print(l)
