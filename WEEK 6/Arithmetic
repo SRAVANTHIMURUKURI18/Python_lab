@@ -1,0 +1,5 @@
+def arithmetic(a,b):
+	return a+b,a-b,a*b,a/b,a%b
+print("Addition,sub,mult,div,rem are:")			
+print(*arithmetic(2,3),sep=" , ")	
+	
