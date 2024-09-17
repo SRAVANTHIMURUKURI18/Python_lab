@@ -1,0 +1,5 @@
+l=[132,667,64,1,4576,246,67454325,976]
+def seclargest(l):
+	l.sort()
+	return l[-2]
+print(seclargest(l))	
