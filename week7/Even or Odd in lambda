@@ -1,0 +1,5 @@
+even =lambda x:x%2==0
+odd =lambda x:x%2!=0
+n=int(input("ENTER NUMBER: "))
+print("Even: ",even(n))
+print("Odd: ",odd(n))
