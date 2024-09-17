@@ -1,0 +1,10 @@
+l=[1,2,3,76,974,23]
+def list(l):
+	max=l[0]
+	min=l[0]
+	for n in l:
+		if n>max:
+			max =n
+		elif n<min:
+			min=n	
+print("max and min are: "*list(l))	
