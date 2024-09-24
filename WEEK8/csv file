@@ -1,0 +1,6 @@
+import csv
+data=[['s.no','rollno','name'],
+      [1,101,'aaa']]
+f=open('table.csv','w',newline='')
+w=csv.writer(f)
+w.writerows(data)
