@@ -1,0 +1,6 @@
+f=open('example.txt','r')
+print('Initial position:',f.tell())
+f.seek(10)
+print('Position after seek: ',f.tell())
+print(f.read(5))
+print('Position after read: ',f.tell())
