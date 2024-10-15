@@ -1,0 +1,13 @@
+class Student:
+    branch="CSE"
+    def read_sd(self,rollno,name):
+         self.rno=rollno
+         self.n=name
+    def print_sd(self):
+         print(self.rno)
+         print(self.n)
+         print(Student.branch)
+s=Student()
+s.read_sd("23PA1A05G1","SRAVANTHI")
+s.print_sd()  
+            
