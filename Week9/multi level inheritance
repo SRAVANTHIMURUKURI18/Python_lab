@@ -1,0 +1,13 @@
+class Parent:
+    def first(self):
+        print("PARENT")
+class Child(Parent):        
+    def second(self):
+        print("child")
+class Child1(Child):
+    def third(self):
+        print("2nd child")        
+ob=Child1()
+ob.first()
+ob.second() 
+ob.third() 
