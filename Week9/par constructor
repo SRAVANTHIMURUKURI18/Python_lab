@@ -1,0 +1,10 @@
+class C:
+   def __init__(self,first,second):
+        self.f=first
+        self.s=second
+   def display(self):
+        self.f
+        self.s
+        print(self.f+self.s)
+b=C(10,20)
+b.display()
